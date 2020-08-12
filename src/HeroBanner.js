@@ -67,7 +67,7 @@ function App() {
           <TextContainer>
             <H1>CodifyHub</H1>
             <H2>
-              The fun way to learn programming block-based coding for kids and
+              The fun way to learn  block-based coding for kids and
               develop critical thinking skills! Ages 11+
             </H2>
             <a href="mailto:info@codifyhub.com">

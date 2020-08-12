@@ -81,7 +81,7 @@ function App() {
       <GlobalStyle />
       <Header>
         <Logo>CodifyHub</Logo>
-        <p>Phone/Whatsapp : +919686915788</p>
+        <p>Phone/Whatsapp : +919686915788 <br/>Email:<a href="mailto:info@codifyhub.com"> info@codifyhub.com</a></p>
       </Header>
       <HeroBanner />
       <WhySection />
