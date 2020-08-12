@@ -59,11 +59,6 @@ const TitleDiv = styled.span`
   margin-bottom: 10px;
 `;
 
-const StrikeThrough = styled.span`
-  text-decoration: line-through;
-  color: var(--dark-gray);
-  font-weight: normal;
-`;
 
 const HeaderDiv = styled.div`
   max-width: 980px;
