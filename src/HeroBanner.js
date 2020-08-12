@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import HeroImage from "./Imgs/Lego.png";
+import HeroImage from "./Imgs/headerBg.svg";
 import Wave from "./Imgs/wave.svg";
 
 const Div = styled.div`
@@ -70,14 +70,14 @@ function App() {
               The fun way to learn programming block-based coding for kids and
               develop critical thinking skills! Ages 11+
             </H2>
-            <a href="mailto:info@codifyhub.com">
+            <a href="mailto:contact@codifyhub.com">
               <Button>Contact Us</Button>
             </a>
           </TextContainer>
           <HeroIMG src={HeroImage} alt="Background" />
         </Container>
       </Div>
-      <IMG src={Wave} alt="Wave bottom" width="1%" />
+      <IMG src={Wave} alt="Wave bottom" width="100%" />
     </>
   );
 }
