@@ -259,7 +259,7 @@ function App() {
             <SubNote>
               Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
               <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 1st October 2020</Bold>
+              <Bold>Starting on 15th September 2020</Bold>
             </SubNote>
           </Container>
         )}
