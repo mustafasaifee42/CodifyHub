@@ -134,7 +134,7 @@ function App() {
           <Container>
             <TitleDiv>
               <H1>Game Development</H1>
-              <PriceDiv>Rs. 2500</PriceDiv>
+              <PriceDiv>Rs. 4500</PriceDiv>
             </TitleDiv>
             <Italics>
               Introduce core coding components like variables, events, loops etc
