@@ -81,9 +81,7 @@ function App() {
       <GlobalStyle />
       <Header>
         <Logo>CodifyHub</Logo>
-        <a href="mailto:contact@codifyhub.com">
-          <Button>Contact Us</Button>
-        </a>
+        <p>Phone/Whatsapp : +919686915788</p>
       </Header>
       <HeroBanner />
       <WhySection />
@@ -96,7 +94,7 @@ function App() {
           Contact us to know more.
         </div>
         <div>
-          <a href="mailto:contact@codifyhub.com">
+          <a href="mailto:info@codifyhub.com">
             <Button>Contact Us</Button>
           </a>
         </div>
