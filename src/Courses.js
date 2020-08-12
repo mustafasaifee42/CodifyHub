@@ -110,7 +110,7 @@ function App() {
             </NavButtons>
             <NavButtons
               selected={courseNo === 2 ? true : false}
-              borderWidth={"1px 0px 1px 0px"}
+              borderWidth={"1px"}
               borderRadius={"0 0 0 0"}
               onClick={() => {
                 setCourseNo(2);
@@ -121,12 +121,32 @@ function App() {
             <NavButtons
               selected={courseNo === 3 ? true : false}
               borderWidth={"1px"}
-              borderRadius={"0 30px 30px 0"}
+              borderRadius={"0 0 0 0"}
               onClick={() => {
                 setCourseNo(3);
               }}
             >
               Web Development
+            </NavButtons>
+            <NavButtons
+              selected={courseNo === 4 ? true : false}
+              borderWidth={"1px"}
+              borderRadius={"0 0 0 0"}
+              onClick={() => {
+                setCourseNo(4);
+              }}
+            >
+              Python
+            </NavButtons>
+            <NavButtons
+              selected={courseNo === 5 ? true : false}
+              borderWidth={"1px"}
+              borderRadius={"0 30px 30px 0"}
+              onClick={() => {
+                setCourseNo(5);
+              }}
+            >
+              Robotics
             </NavButtons>
           </NavButtonsContainer>
         </HeaderDiv>
@@ -134,7 +154,7 @@ function App() {
           <Container>
             <TitleDiv>
               <H1>Game Development</H1>
-              <PriceDiv>Rs. 2500</PriceDiv>
+              <PriceDiv>Rs. 4500</PriceDiv>
             </TitleDiv>
             <Italics>
               Introduce core coding components like variables, events, loops etc
@@ -163,16 +183,14 @@ function App() {
             <SubNote>
               Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
               <Bold>15</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 18th August 2020</Bold>
+              <Bold>Starting on 1st September 2020</Bold>
             </SubNote>
           </Container>
         ) : courseNo === 2 ? (
           <Container>
             <TitleDiv>
               <H1>Mobile App Development</H1>
-              <PriceDiv>
-                <StrikeThrough>Rs. 5400</StrikeThrough> {"  "}Rs. 3000
-              </PriceDiv>
+              <PriceDiv>Rs. 5400</PriceDiv>
             </TitleDiv>
             <Italics>
               Perfect match for middle school students. Doesn’t require any
@@ -220,16 +238,14 @@ function App() {
             <SubNote>
               Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
               <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 1st October 2020</Bold>
+              <Bold>Starting on 15th September 2020</Bold>
             </SubNote>
           </Container>
-        ) : (
+        ) : courseNo === 3 ? (
           <Container>
             <TitleDiv>
               <H1>Web Development</H1>
-              <PriceDiv>
-                <StrikeThrough>Rs. 5400</StrikeThrough> {"  "}Rs. 3000
-              </PriceDiv>
+              <PriceDiv>Rs. 5400</PriceDiv>
             </TitleDiv>
             Digitization has moved everything online. Today all major businesses
             are running online like amazon, flipkart, etc. Every website has a
@@ -259,10 +275,15 @@ function App() {
             <SubNote>
               Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
               <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 1st October 2020</Bold>
+              <Bold>Starting on 15th September 2020</Bold>
             </SubNote>
           </Container>
-        )}
+        )  : (
+          <Container>
+            <TitleDiv>
+              <H1>Launching soon</H1>
+            </TitleDiv>
+            </Container>)}
       </Div>
     </>
   );
