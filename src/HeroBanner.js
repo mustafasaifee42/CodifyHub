@@ -69,6 +69,8 @@ function App() {
             <H2>
               The fun way to learn  block-based coding for kids and
               develop critical thinking skills! Ages 11+
+
+              Course structure and content has been developed by a team of IIT and NIT graduates
             </H2>
             <a href="mailto:info@codifyhub.com">
               <Button>Contact Us</Button>
