@@ -281,7 +281,7 @@ function App() {
             </TitleDiv>
             Python is one of the most widely used programming languages. It is being used by almost all 
             the big tech companies like Google, Microsoft, Amazon and Facebook. It is a multi-purpose language 
-            and is very popular for building AI applications. This course witll cover fundamentals of Python. Students
+            and is very popular for building AI applications. This course will cover fundamentals of Python and students
             will also learn to develop animation and games.{" "}
             <Italics>
               Classes will be conducted online using zoom application
