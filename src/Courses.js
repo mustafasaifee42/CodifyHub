@@ -273,6 +273,31 @@ function App() {
               <Bold>Starting on 15th September 2020</Bold>
             </SubNote>
           </Container>
+        ) : courseNo === 4 ? (
+          <Container>
+            <TitleDiv>
+              <H1>Python - Game Development</H1>
+              <PriceDiv>Rs. 6000</PriceDiv>
+            </TitleDiv>
+            {" "}
+            <Italics>
+              Classes will be conducted online using zoom application
+            </Italics>
+            <br />
+            <br /> Course outline: <br />
+            <UL>
+              <li>Learn fundamental coding concepts</li>
+              <li>Draw with Turtle. Create geometric shapes and puzzles</li>
+              <li>Develop UI, animation and games using Tkinter</li>
+              <li>Develop games using Pygame</li>
+            </UL>
+            <br />
+            <SubNote>
+              Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
+              <Bold>25</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              <Bold>Starting on 01st October 2020</Bold>
+            </SubNote>
+          </Container>
         )  : (
           <Container>
             <TitleDiv>
