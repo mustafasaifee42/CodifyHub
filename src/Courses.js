@@ -277,7 +277,7 @@ function App() {
           <Container>
             <TitleDiv>
               <H1>Python - Game Development</H1>
-              <PriceDiv>Rs. 6000</PriceDiv>
+              <PriceDiv><del>Rs. 7500</del> Rs. 6000</PriceDiv>
             </TitleDiv>
             Python is one of the most widely used programming languages. It is being used by almost all 
             the big tech companies like Google, Microsoft, Amazon and Facebook. It is a multi-purpose language 
