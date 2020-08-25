@@ -185,7 +185,7 @@ function App() {
           <Container>
             <TitleDiv>
               <H1>Mobile App Development</H1>
-              <PriceDiv>Rs. 5400</PriceDiv>
+              <PriceDiv>Rs. 5500</PriceDiv>
             </TitleDiv>
             <Italics>
               Perfect match for middle school students. Doesn’t require any
@@ -240,7 +240,7 @@ function App() {
           <Container>
             <TitleDiv>
               <H1>Web Development</H1>
-              <PriceDiv>Rs. 5400</PriceDiv>
+              <PriceDiv>Rs. 5500</PriceDiv>
             </TitleDiv>
             Digitization has moved everything online. Today all major businesses
             are running online like amazon, flipkart, etc. Every website has a
