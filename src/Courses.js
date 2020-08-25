@@ -176,7 +176,7 @@ function App() {
             </UL>
             <br />
             <SubNote>
-              Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
+              Recommended age: <Bold>10+</Bold> • Number of classes:{" "}
               <Bold>15</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
               <Bold>Starting on 1st September 2020</Bold>
             </SubNote>
@@ -231,8 +231,8 @@ function App() {
             </UL>
             <br />
             <SubNote>
-              Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
-              <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
+              <Bold>20</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
               <Bold>Starting on 15th September 2020</Bold>
             </SubNote>
           </Container>
@@ -268,8 +268,8 @@ function App() {
             </UL>
             <br />
             <SubNote>
-              Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
-              <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
+              <Bold>20</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
               <Bold>Starting on 15th September 2020</Bold>
             </SubNote>
           </Container>
