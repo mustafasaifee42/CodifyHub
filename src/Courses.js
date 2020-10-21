@@ -177,8 +177,8 @@ function App() {
             <br />
             <SubNote>
               Recommended age: <Bold>10+</Bold> • Number of classes:{" "}
-              <Bold>15</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 1st September 2020</Bold>
+              <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              <Bold>Starting on 1st November 2020</Bold>
             </SubNote>
           </Container>
         ) : courseNo === 2 ? (
@@ -233,7 +233,7 @@ function App() {
             <SubNote>
               Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
               <Bold>20</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 15th September 2020</Bold>
+              <Bold>Starting on 15th November 2020</Bold>
             </SubNote>
           </Container>
         ) : courseNo === 3 ? (
@@ -270,7 +270,7 @@ function App() {
             <SubNote>
               Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
               <Bold>20</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 15th October 2020</Bold>
+              <Bold>Starting on 15th November 2020</Bold>
             </SubNote>
           </Container>
         ) : courseNo === 4 ? (
@@ -298,7 +298,7 @@ function App() {
             <SubNote>
               Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
               <Bold>25</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 01st October 2020</Bold>
+              <Bold>Starting on 01st December 2020</Bold>
             </SubNote>
           </Container>
         )  : (
