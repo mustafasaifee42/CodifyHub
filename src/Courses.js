@@ -59,11 +59,6 @@ const TitleDiv = styled.span`
   margin-bottom: 10px;
 `;
 
-const StrikeThrough = styled.span`
-  text-decoration: line-through;
-  color: var(--dark-gray);
-  font-weight: normal;
-`;
 
 const HeaderDiv = styled.div`
   max-width: 980px;
@@ -181,16 +176,16 @@ function App() {
             </UL>
             <br />
             <SubNote>
-              Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
-              <Bold>15</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 1st September 2020</Bold>
+              Recommended age: <Bold>10+</Bold> • Number of classes:{" "}
+              <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              <Bold>Starting on 1st November 2020</Bold>
             </SubNote>
           </Container>
         ) : courseNo === 2 ? (
           <Container>
             <TitleDiv>
               <H1>Mobile App Development</H1>
-              <PriceDiv>Rs. 5400</PriceDiv>
+              <PriceDiv>Rs. 5500</PriceDiv>
             </TitleDiv>
             <Italics>
               Perfect match for middle school students. Doesn’t require any
@@ -236,16 +231,16 @@ function App() {
             </UL>
             <br />
             <SubNote>
-              Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
-              <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 15th September 2020</Bold>
+              Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
+              <Bold>20</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              <Bold>Starting on 15th November 2020</Bold>
             </SubNote>
           </Container>
         ) : courseNo === 3 ? (
           <Container>
             <TitleDiv>
               <H1>Web Development</H1>
-              <PriceDiv>Rs. 5400</PriceDiv>
+              <PriceDiv>Rs. 5500</PriceDiv>
             </TitleDiv>
             Digitization has moved everything online. Today all major businesses
             are running online like amazon, flipkart, etc. Every website has a
@@ -273,9 +268,37 @@ function App() {
             </UL>
             <br />
             <SubNote>
+              Recommended age: <Bold>11+</Bold> • Number of classes:{" "}
+              <Bold>20</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              <Bold>Starting on 15th November 2020</Bold>
+            </SubNote>
+          </Container>
+        ) : courseNo === 4 ? (
+          <Container>
+            <TitleDiv>
+              <H1>Python - Game Development</H1>
+              <PriceDiv>Rs. 6000</PriceDiv>
+            </TitleDiv>
+            Python is one of the most widely used programming languages. It is being used by almost all 
+            the big tech companies like Google, Microsoft, Amazon and Facebook. It is a multi-purpose language 
+            and is very popular for building AI applications. This course will cover fundamentals of Python and students
+            will also learn to develop animation and games.{" "}
+            <Italics>
+              Classes will be conducted online using zoom application
+            </Italics>
+            <br />
+            <br /> Course outline: <br />
+            <UL>
+              <li>Learn fundamental coding concepts</li>
+              <li>Draw with Turtle. Create geometric shapes and puzzles</li>
+              <li>Develop UI, animation and games using Tkinter</li>
+              <li>Develop games using Pygame</li>
+            </UL>
+            <br />
+            <SubNote>
               Recommended age: <Bold>13+</Bold> • Number of classes:{" "}
-              <Bold>18</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
-              <Bold>Starting on 15th September 2020</Bold>
+              <Bold>25</Bold> • Batch Size: <Bold>6</Bold> • Dates:{" "}
+              <Bold>Starting on 01st December 2020</Bold>
             </SubNote>
           </Container>
         )  : (
